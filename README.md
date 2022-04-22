@@ -1,6 +1,8 @@
 # Valhalla
 ![Valhalla logo](images/Captura_valhalla.png)
-El proyecto está inspirado en la serie Vikings y en los emprendedores / lideres de la industria de la tecnología y la informática más grandes de la historia.
+
+
+El proyecto está inspirado en la serie Vikings y en los emprendedores / lideres de la industria, de la tecnología y la informática más grandes de la historia.
 
 ## Contenido 
 La pagina cuenta con un índex y cuatro secciones. Mediante el índex se puede navegar toda la pagina a todas las secciones: Odín, Thor, Héroes informáticos y un formulario de contacto. 
