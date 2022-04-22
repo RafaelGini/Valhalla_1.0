@@ -119,7 +119,7 @@ header nav{
 .hero-button{font-size: 3em;}
 
 /*-------------------- SECCION DIOSES INDEX --------------------*/
-.dioses{background-color: rgb(255, 251, 228);}
+.dioses{background-color: rgb(255, 255, 255);}
 .dioses p{margin: 20px 0px; font-weight: 700;}
 .dioses form button{margin-top: 8px;}
 .dioses .container{text-align: center;}
@@ -182,7 +182,7 @@ header nav{
 }
 
 #acerca{ 
-    background-color: rgb(255, 251, 228);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
