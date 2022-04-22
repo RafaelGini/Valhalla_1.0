@@ -437,7 +437,7 @@ footer .container{
     align-items: center;
 }
 
-
+.fieldset-organizador{padding-top: 15px;}
 
 /*-------------------- RESPONSIVE DESKTOP 720px --------------------*/
 @media (min-width:720px){
