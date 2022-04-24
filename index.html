@@ -1,151 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valhalla</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Valhalla</title>
+
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="images/logo.png" alt="~Valhalla LOGO~">
-                <p>Valhalla</p>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-xl">
+
+          <a class="navbar-brand" href="#"> 
+            <img src="images/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            <span class="ms-1"> Valhalla </span>
+          </a>
+
+          <button class="navbar-toggler light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon light"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="pages/heroesInformaticos.html">Heroés</a>
+              <a class="nav-link" href="pages/odin.html">Odín</a>
+              <a class="nav-link" href="pages/thor.html">Thor</a>
+              <a class="nav-link" href="#acerca">Acerca</a>
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
             </div>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#acerca">Acerca</a>
-                <a href="Pages/contacto.html">Contacto</a>
-            </nav>
+
+          </div>
         </div>
+      </nav>
     </header>
 
-    <section class="hero">
-        <h1>Conocé los mas grandes Guerreros informáticos</h1>
-        <form action="Pages/heroesInformaticos.html">
-            <button>Entrar a Valhalla</button>
-        </form>
-    </section>
-
-    <section class="dioses odin">
-        <div class="container">
-            <div class="dioses__img-odin"></div>
-            <div class="dioses__texto">
-                <h2>Odín</h2>
-                <p>
-                    Es considerado el dios principal de la mitología nórdica, gobernador de Asgard, dios de la sabiduría, la guerra y la muerte, pero también se le considera, aunque en menor medida, el dios de la magia, la poesía, la profecía, la victoria y la caza. 
-
-                </p>
-                <form action="Pages/odin.html">
-                    <button>Visita a Odín</button>
-                </form>
-            </div>
+      <!-- SLIDER HERO -->
+    <div id="carouselExampleControls" class="carousel slide pt-5 box-shadow" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/valhalla2.jpg" class="d-block w-100" alt="Odín">
         </div>
-    </section>
-
-    <section class="dioses thor">
-        <div class="container">
-            <div class="dioses__texto">
-                <h2>Thor</h2>
-                <p>
-                    Es el dios del trueno y fuerza en la mitología nórdica y germánica. Tenía influencia en áreas muy diferentes, tales como el clima, las cosechas, la protección, la consagración, la justicia, las lidias, los viajes y las batallas.
-                </p>
-                <form action="Pages/thor.html">
-                    <button>Visita a Thor</button>
-                </form>
-            </div>
-            <div class="dioses__img-thor"></div>
-        </div>
-    </section>
-    
-    <section id="hI">
-        <div class="container">
-
-            <h2>Héroes Informáticos</h2>
-            <div class="hI__heroes">
-                <div class="heroes heroes-jobs">
-                    <h3>Steve Jobs</h3>
-                    <p>
-                        Steven Paul Jobs fue un empresario y magnate de los negocios en el sector informático y de la industria del entretenimiento estadounidense. Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company.
-                    </p>
-                    <form action="Pages/heroesInformaticos.html#jobs">
-                        <button>+Info</button>
-                    </form>
-                </div>
-
-                <div class="heroes heroes-turing">
-                    <h3>Alan Turnig</h3>
-                    <p>
-                        Alan Mathison Turing fue un matemático, lógico, informático teórico, criptógrafo, filósofo y biólogo teórico británico.
-                        Es considerado uno de los padres de la ciencia de la computación y precursor de la informática moderna.
-
-                    </p>
-                    <form action="Pages/heroesInformaticos.html#turing">
-                        <button>+Info</button>
-                    </form>
-                </div>
-                    
-                <div class="heroes heroes-gates">
-                    <h3>Bill Gates</h3>
-                    <p>
-                        William Henry Gates III es un empresario, informático y filántropo estadounidense, creó y fundó junto con Paul Allen, la empresa Microsoft. De igual forma es conocido por haber creado, también con Paul Allen, el sistema operativo para computadoras Windows.
-                    </p>
-                    <form action="Pages/heroesInformaticos.html#gates">
-                        <button>+Info</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
         
-    <section id="acerca">
-        <div class="container">
-            <h2>Acerca de Valhalla</h2>
-            <p>En la mitología Nórdica, Valhalla se conoce a un enorme y majestuoso salón ubicado en Asgard, la ciudad de los dioses. Aquí el significado no es tan distinto, se trata de un salón sagrado virtual representado como una página web para reconocer y dar tributo a los más grandes guerreros informáticos que existieron, cada uno representado con un rango:
-            </p>
-
-            <div class="acerca__iconos">
-                <img src="images/Rango1.png" alt="Rango1" class="icon">
-                <img src="images/Rango2.png" alt="Rango2" class="icon">
-                <img src="images/Rango3.png" alt="Rango3" class="icon">
-                <img src="images/Rango4.png" alt="Rango4" class="icon">
-                <img src="images/Rango5.png" alt="Rango5" class="icon">
-            </div>
-
-            <p>Existen, existieron y existirán muchos grandes informáticos en la historia. En Valhalla vamos a rendir tributo a cada uno de ellos, a su debido tiempo. Por ahora contamos con algunos de los más grandes. Visita Valhalla y aprende sobre ellos.</p>
-
-            <form action="Pages/heroesInformaticos.html">
-                <button>Entrar a Valhalla</button>
-            </form>
-            
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/17013-4k.jpg" class="d-block w-100" alt="Banner de Valhalla">
         </div>
-    </section>
-    
-    <footer>
-        <div class="container">
-
-            <div class="logo">
-                <img src="images/logo.png" alt="~Valhalla LOGO~">
-                <p>Valhalla</p>
-            </div>
-
-            <div class="footer__links">
-                <a href="https://es.wikipedia.org/wiki/Valhalla" target="_blank">Informate</a>
-    
-                <a href="pages/contacto.html">Contactanos</a>
-                
-            </div>
-
-        </div>
-    </footer>
-    
-
-
         
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/valhalla7.jpg" class="d-block w-100" alt="Odín">
+        </div>
+        
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/fantasíaFuturista_1.jpg" class="d-block w-100" alt="Banner de Valhalla">
+        </div>
+        
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/valhalla4.jpg" class="d-block w-100" alt="Odín">
+        </div>
 
-</body>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/valhalla3.jpg" class="d-block w-100" alt="Odín">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/valhalla5.jpeg" class="d-block w-100" alt="Odín">
+        </div>
+
+
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+      <!-- Intro -->
+    <section class="w-50 mx-auto text-center py-5 my-5" id="intro">
+      <h1 class="p-3 fs-3 border-top border-3">Conoce los más grandes <span class="valhalla-color fw-bold">informáticos</span> de la historia</h1>
+      <p class="p-3 fs-5">
+        Visita en <span class="valhalla-color fw-bold">Valhalla</span> la sección héroes informáticos y conócelos. Se agregarán mas leyendas en el tiempo y por ahora damos tributo a 3 de los mas grandes. 
+      </p>
+      <form action="#">
+        <button class="valhalla-button">
+          Entrar a Valhalla
+        </button>
+      </form>
+      <p class="p-3 fs-5 my-3">
+        Existen, existieron y existirán muchos grandes informáticos en la historia. En Valhalla vamos a rendir tributo a cada uno de ellos.
+      </p>
+    </section>
+
+      <!-- HEROES -->
+      <section class="container-fluid my-5 py-5 bg-dark text-white heroes-img" id="heroes-index">
+
+        <h1 class="fs-1 text-center fw-bold mt-5">Héroes informáticos</h1>
+
+        <div class="row w-75 mx-auto mt-5 mb-0 heroes-fila">
+
+          <div class="col-lg-6 col-md-12 col-sm-12 my-4 d-flex icono-wrap">
+            <img src="images/SteveJObs.jpg" alt="Steve Jobs" width="180" height="112.5" class="rounded mt-4 heroes-img">
+            <div>
+              <h3 class="fs-5 px-4 mt-4 pb-1">Steve Jobs</h3>
+              <p class="px-4">
+                Fundador de Apple y el más grande ilustre de la tecnología.
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-12 col-sm-12 my-4 d-flex icono-wrap">
+            <img src="images/turing2.jpg" alt="Alan Turing" width="180" height="129" class="rounded mt-4 heroes-img">
+            <div>
+              <h3 class="fs-5 px-4 mt-4 pb-1">Alan Turing</h3>
+              <p class="px-4">
+                Creó la maquina de Turing, capaz de decifrar el codigo Enigma. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row w-75 mx-auto mt-0 mb-5 heroes-fila">
+
+          <div class="col-lg-6 col-md-12 col-sm-12 my-4 d-flex icono-wrap">
+            <img src="images/GATES.jpg" alt="Bill gates" width="180" height="101" class="rounded mt-4 heroes-img">
+            <div>
+              <h3 class="fs-5 px-4 mt-4 pb-1">Bill Gates</h3>
+              <p class="px-4">
+                Fundador de Microsoft y creador de Windows OS. Magnate de la tecnología.
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-12 col-sm-12 my-4 d-flex icono-wrap">
+            <img src="images/mystery-Man-Soompi.jpg" alt="Satoshi Nakamoto" width="180" height="103" class="rounded mt-4 heroes-img">
+            <div>
+              <h3 class="fs-5 px-4 pb-1 mt-4">Satoshi Nakamoto</h3>
+              <p class="px-4">
+                Implementador de la Blockchain y creador Bitcoin. Mayor poseedor de BTC.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </section>
+      
+      <!--ACERCA-->
+      <section id="acerca">
+        <div class="w-50 m-auto text-center" id="AcercaValhalla">
+          <h1 class="mb-5 fs-2">Acerca de <span class="valhalla-color">Valhalla</span></h1>
+          <p class="fs-4">En la mitología Nórdica, Valhalla se conoce a un enorme y majestuoso salón ubicado en Asgard, la ciudad de los dioses. Aquí el significado no es tan distinto, se trata de un salón sagrado virtual representado como una página web para reconocer y dar tributo a los más grandes guerreros informáticos que existieron, cada uno representado con un rango:</p>
+        </div>
+        <div>
+          <div class="acerca__iconos my-5 text-center">
+            <img src="images/Rango1.png" alt="Rango1" class="rango-icon">
+            <img src="images/Rango2.png" alt="Rango2" class="rango-icon">
+            <img src="images/Rango3.png" alt="Rango3" class="rango-icon">
+            <img src="images/Rango4.png" alt="Rango4" class="rango-icon">
+            <img src="images/Rango5.png" alt="Rango5" class="rango-icon">
+        </div>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+      <section class="valhalla-footer">
+        <div class="valhalla-footer-container">
+
+          <div class="valhalla-logo">
+            <a href="#"><img src="images/logo.png" alt="~Valhalla LOGO~"></a>
+            <a href="#" class="valhalla-logo-text">Valhalla</a>
+          </div>
+
+          <div class="valhalla-footer-links">
+              <a href="https://es.wikipedia.org/wiki/Valhalla" target="_blank" class="valhalla-footer-links">Informate</a>
+  
+              <a href="pages/contacto.html" class="valhalla-footer-links">Contactanos</a>
+              
+          </div>
+        </div>
+      </section>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
 </html>
